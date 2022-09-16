@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.com.uz.wcf.poll.featured"><![CDATA[Featured Poll]]></item>
+	</category>
+	
+	<category name="wcf.acp.featuredPoll">
+		<item name="wcf.acp.featuredPoll.autoAdd"><![CDATA[Automatically add new polls]]></item>
+		<item name="wcf.acp.featuredPoll.configuration"><![CDATA[Configure Featured Polls]]></item>
+		<item name="wcf.acp.featuredPoll.display"><![CDATA[Display]]></item>
+		<item name="wcf.acp.featuredPoll.display.description"><![CDATA[Configure the display of Featured Polls]]></item>
+		<item name="wcf.acp.featuredPoll.display.frequency"><![CDATA[Change after]]></item>
+		<item name="wcf.acp.featuredPoll.display.frequency.description"><![CDATA[Another poll is displayed after the configured time [in minutes].]]></item>
+		<item name="wcf.acp.featuredPoll.display.isRandom"><![CDATA[Random Sequence]]></item>
+		<item name="wcf.acp.featuredPoll.display.isRandom.description"><![CDATA[If more than one poll is defined as Featured Poll, the next poll to be displayed will be selected at random. Otherwise the polls are displayed in the order of their creation.]]></item>
+		<item name="wcf.acp.featuredPoll.display.width"><![CDATA[Box Width]]></item>
+		<item name="wcf.acp.featuredPoll.display.width.description"><![CDATA[Width of the poll box within the sidebar [in percent].]]></item>
+		<item name="wcf.acp.featuredPoll.new"><![CDATA[New Polls]]></item>
+		<item name="wcf.acp.featuredPoll.polls"><![CDATA[Existing Polls]]></item>
+		<item name="wcf.acp.featuredPoll.polls.description"><![CDATA[Choose the poll(s) to be featured and determine whether or not new poll are to be added to the list of Featured Polls.]]></item>
+		<item name="wcf.acp.featuredPoll.polls.noPolls"><![CDATA[There are presently no polls.]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.profile.pollPage"><![CDATA[Featured Poll]]></item>
+		<item name="wcf.acp.group.option.admin.content.poll.canManageFeaturedPoll"><![CDATA[Can manage Featured Polls]]></item>
+		<item name="wcf.acp.group.option.user.profile.poll.canSeePollPage"><![CDATA[Can see poll page]]></item>
+	</category>
+	
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.featuredPoll"><![CDATA[Featured Polls]]></item>
+		<item name="wcf.acp.menu.link.featuredPoll.config"><![CDATA[Configuration]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_featuredPoll"><![CDATA[Featured Polls]]></item>
+	</category>
+	
+	<category name="wcf.user">
+		<item name="wcf.user.featuredPoll.more"><![CDATA[More Polls]]></item>
+		<item name="wcf.user.featuredPoll.question"><![CDATA[Question]]></item>
+		<item name="wcf.user.featuredPoll.time"><![CDATA[Time]]></item>
+		<item name="wcf.user.featuredPoll.votes"><![CDATA[Votes]]></item>
+		<item name="wcf.user.featuredPoll.voted"><![CDATA[You have voted.]]></item>
+		<item name="wcf.user.featuredPoll.voted.not"><![CDATA[You have not voted.]]></item>
+		<item name="wcf.user.featuredPoll.voted.forbidden"><![CDATA[You may not vote.]]></item>
+	</category>
+</language>

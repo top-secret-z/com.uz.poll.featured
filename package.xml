@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.uz.poll.featured" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/package.xsd">
+	<packageinformation>
+		<packagename>Featured Polls</packagename>
+		<packagedescription>Displays selected polls in a box.</packagedescription>
+		<packagename language="de">Beworbene Umfragen</packagename>
+		<packagedescription language="de">Zeigt wählbare Umfragen in einer Box.</packagedescription>
+		<version>5.5.0</version>
+		<date>2022-05-23</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Zaydowicz</author>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+	
+	<instructions type="install">
+		<instruction type="acpTemplate">acptemplates.tar</instruction>
+		<instruction type="file">files.tar</instruction>
+		<instruction type="cronjob">cronjob.xml</instruction>
+		<instruction type="eventListener">eventListener.xml</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="option">option.xml</instruction>
+		<instruction type="objectType">objectType.xml</instruction>
+		<instruction type="userGroupOption">userGroupOption.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="page">page.xml</instruction>
+		<instruction type="box">box.xml</instruction>
+		<instruction type="acpMenu">acpMenu.xml</instruction>
+		<instruction type="sql">install.sql</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="5.2.*">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="acpTemplate">acptemplates.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="5.3.*">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="acpTemplate">acptemplates.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="5.4.*">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="acpTemplate">acptemplates.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+	</instructions>
+</package>
