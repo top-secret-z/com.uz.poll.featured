@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
-	<category name="wcf.acp.box">
-		<item name="wcf.acp.box.boxController.com.uz.wcf.poll.featured"><![CDATA[Beworbene Umfrage]]></item>
-	</category>
-	
-	<category name="wcf.acp.featuredPoll">
-		<item name="wcf.acp.featuredPoll.autoAdd"><![CDATA[Neue Umfragen automatisch hinzufügen]]></item>
-		<item name="wcf.acp.featuredPoll.configuration"><![CDATA[Beworbene Umfragen konfigurieren]]></item>
-		<item name="wcf.acp.featuredPoll.display"><![CDATA[Anzeige]]></item>
-		<item name="wcf.acp.featuredPoll.display.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Lege{else}Legen Sie{/if} hier fest, wie die beworbenen Umfragen angezeigt werden sollen.]]></item>
-		<item name="wcf.acp.featuredPoll.display.frequency"><![CDATA[Wechseln nach]]></item>
-		<item name="wcf.acp.featuredPoll.display.frequency.description"><![CDATA[Nach der angegebenen Zeit [in Minuten] wird eine andere Umfrage dargestellt.]]></item>
-		<item name="wcf.acp.featuredPoll.display.isRandom"><![CDATA[Zufällige Reihenfolge]]></item>
-		<item name="wcf.acp.featuredPoll.display.isRandom.description"><![CDATA[Ist mehr als eine Umfrage als Beworbene Umfrage konfiguriert, wird die nächste anzuzeigende Umfrage nach der o.a. Zeit zufällig ausgewählt. Ansonsten erfolgt eine Anzeige in der Reihenfolge der Eingabe der Umfragen.]]></item>
-		<item name="wcf.acp.featuredPoll.display.width"><![CDATA[Breite der Box]]></item>
-		<item name="wcf.acp.featuredPoll.display.width.description"><![CDATA[Breite der Box innerhalb der Seitenleiste [in Prozent].]]></item>
-		<item name="wcf.acp.featuredPoll.new"><![CDATA[Neue Umfragen]]></item>
-		<item name="wcf.acp.featuredPoll.polls"><![CDATA[Bestehende Umfragen]]></item>
-		<item name="wcf.acp.featuredPoll.polls.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Wähle{else}Wählen Sie{/if} hier die Umfragen, die beworben werden sollen, und {if LANGUAGE_USE_INFORMAL_VARIANT}lege{else}legen Sie{/if} fest, ob neu erstellte Umfragen automatisch zur Liste der Beworbenen Umfragen hinzugefügt werden sollen.]]></item>
-		<item name="wcf.acp.featuredPoll.polls.noPolls"><![CDATA[Es existieren keine Umfragen, die beworben werden könnten.]]></item>
-	</category>
-	
-	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.category.user.profile.pollPage"><![CDATA[Beworbene Umfragen]]></item>
-		<item name="wcf.acp.group.option.admin.content.poll.canManageFeaturedPoll"><![CDATA[Kann Beworbene Umfragen verwalten]]></item>
-		<item name="wcf.acp.group.option.user.profile.poll.canSeePollPage"><![CDATA[Kann Umfragen-Seite sehen]]></item>
-	</category>
-	
-	<category name="wcf.acp.menu">
-		<item name="wcf.acp.menu.link.featuredPoll"><![CDATA[Beworbene Umfragen]]></item>
-		<item name="wcf.acp.menu.link.featuredPoll.config"><![CDATA[Konfiguration]]></item>
-	</category>
-	
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.module_featuredPoll"><![CDATA[Beworbene Umfragen]]></item>
-	</category>
-	
-	<category name="wcf.user">
-		<item name="wcf.user.featuredPoll.more"><![CDATA[Mehr Umfragen]]></item>
-		<item name="wcf.user.featuredPoll.question"><![CDATA[Frage]]></item>
-		<item name="wcf.user.featuredPoll.time"><![CDATA[Zeit]]></item>
-		<item name="wcf.user.featuredPoll.votes"><![CDATA[Stimmen]]></item>
-		<item name="wcf.user.featuredPoll.voted"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} abgestimmt.]]></item>
-		<item name="wcf.user.featuredPoll.voted.not"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} nicht abgestimmt.]]></item>
-		<item name="wcf.user.featuredPoll.voted.forbidden"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du darfst{else}Sie dürfen{/if} nicht abstimmen.]]></item>
-	</category>
+    <category name="wcf.acp.box">
+        <item name="wcf.acp.box.boxController.com.uz.wcf.poll.featured"><![CDATA[Beworbene Umfrage]]></item>
+    </category>
+
+    <category name="wcf.acp.featuredPoll">
+        <item name="wcf.acp.featuredPoll.autoAdd"><![CDATA[Neue Umfragen automatisch hinzufügen]]></item>
+        <item name="wcf.acp.featuredPoll.configuration"><![CDATA[Beworbene Umfragen konfigurieren]]></item>
+        <item name="wcf.acp.featuredPoll.display"><![CDATA[Anzeige]]></item>
+        <item name="wcf.acp.featuredPoll.display.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Lege{else}Legen Sie{/if} hier fest, wie die beworbenen Umfragen angezeigt werden sollen.]]></item>
+        <item name="wcf.acp.featuredPoll.display.frequency"><![CDATA[Wechseln nach]]></item>
+        <item name="wcf.acp.featuredPoll.display.frequency.description"><![CDATA[Nach der angegebenen Zeit [in Minuten] wird eine andere Umfrage dargestellt.]]></item>
+        <item name="wcf.acp.featuredPoll.display.isRandom"><![CDATA[Zufällige Reihenfolge]]></item>
+        <item name="wcf.acp.featuredPoll.display.isRandom.description"><![CDATA[Ist mehr als eine Umfrage als Beworbene Umfrage konfiguriert, wird die nächste anzuzeigende Umfrage nach der o.a. Zeit zufällig ausgewählt. Ansonsten erfolgt eine Anzeige in der Reihenfolge der Eingabe der Umfragen.]]></item>
+        <item name="wcf.acp.featuredPoll.display.width"><![CDATA[Breite der Box]]></item>
+        <item name="wcf.acp.featuredPoll.display.width.description"><![CDATA[Breite der Box innerhalb der Seitenleiste [in Prozent].]]></item>
+        <item name="wcf.acp.featuredPoll.new"><![CDATA[Neue Umfragen]]></item>
+        <item name="wcf.acp.featuredPoll.polls"><![CDATA[Bestehende Umfragen]]></item>
+        <item name="wcf.acp.featuredPoll.polls.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Wähle{else}Wählen Sie{/if} hier die Umfragen, die beworben werden sollen, und {if LANGUAGE_USE_INFORMAL_VARIANT}lege{else}legen Sie{/if} fest, ob neu erstellte Umfragen automatisch zur Liste der Beworbenen Umfragen hinzugefügt werden sollen.]]></item>
+        <item name="wcf.acp.featuredPoll.polls.noPolls"><![CDATA[Es existieren keine Umfragen, die beworben werden könnten.]]></item>
+    </category>
+
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.category.user.profile.pollPage"><![CDATA[Beworbene Umfragen]]></item>
+        <item name="wcf.acp.group.option.admin.content.poll.canManageFeaturedPoll"><![CDATA[Kann Beworbene Umfragen verwalten]]></item>
+        <item name="wcf.acp.group.option.user.profile.poll.canSeePollPage"><![CDATA[Kann Umfragen-Seite sehen]]></item>
+    </category>
+
+    <category name="wcf.acp.menu">
+        <item name="wcf.acp.menu.link.featuredPoll"><![CDATA[Beworbene Umfragen]]></item>
+        <item name="wcf.acp.menu.link.featuredPoll.config"><![CDATA[Konfiguration]]></item>
+    </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.module_featuredPoll"><![CDATA[Beworbene Umfragen]]></item>
+    </category>
+
+    <category name="wcf.user">
+        <item name="wcf.user.featuredPoll.more"><![CDATA[Mehr Umfragen]]></item>
+        <item name="wcf.user.featuredPoll.question"><![CDATA[Frage]]></item>
+        <item name="wcf.user.featuredPoll.time"><![CDATA[Zeit]]></item>
+        <item name="wcf.user.featuredPoll.votes"><![CDATA[Stimmen]]></item>
+        <item name="wcf.user.featuredPoll.voted"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} abgestimmt.]]></item>
+        <item name="wcf.user.featuredPoll.voted.not"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} nicht abgestimmt.]]></item>
+        <item name="wcf.user.featuredPoll.voted.forbidden"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du darfst{else}Sie dürfen{/if} nicht abstimmen.]]></item>
+    </category>
 </language>

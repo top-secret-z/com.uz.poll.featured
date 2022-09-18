@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/page.xsd">
-	<import>
-		<page identifier="com.uz.wcf.PollList">
-			<pageType>system</pageType>
-			<controller>wcf\page\PollsListPage</controller>
-			<name language="de">Umfragen</name>
-			<name language="en">Polls</name>
-			<permissions>admin.content.poll.canManageFeaturedPoll,user.profile.poll.canSeePollPage</permissions>
-			
-			<content language="en">
-				<title>Polls</title>
-			</content>
-			<content language="de">
-				<title>Umfragen</title>
-			</content>
-		</page>
-	</import>
+    <import>
+        <page identifier="com.uz.wcf.PollList">
+            <pageType>system</pageType>
+            <controller>wcf\page\PollsListPage</controller>
+            <name language="de">Umfragen</name>
+            <name language="en">Polls</name>
+            <permissions>admin.content.poll.canManageFeaturedPoll,user.profile.poll.canSeePollPage</permissions>
+
+            <content language="en">
+                <title>Polls</title>
+            </content>
+            <content language="de">
+                <title>Umfragen</title>
+            </content>
+        </page>
+    </import>
 </data>
