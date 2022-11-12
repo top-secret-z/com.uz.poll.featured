@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/box.xsd">
-	<import>
-		<box identifier="com.uz.wcf.poll.featured">
-			<name language="de">Beworbene Umfrage</name>
-			<name language="en">Featured Poll</name>
-			<boxType>system</boxType>
-			<objectType>com.uz.wcf.poll.featured</objectType>
-			<position>sidebarRight</position>
-			<showHeader>1</showHeader>
-			<visibleEverywhere>0</visibleEverywhere>
-			
-			<content language="de">
-				<title>Beworbene Umfrage</title>
-			</content>
-			<content language="en">
-				<title>Featured Poll</title>
-			</content>
-		</box>
-	</import>
+    <import>
+        <box identifier="com.uz.wcf.poll.featured">
+            <name language="de">Beworbene Umfrage</name>
+            <name language="en">Featured Poll</name>
+            <boxType>system</boxType>
+            <objectType>com.uz.wcf.poll.featured</objectType>
+            <position>sidebarRight</position>
+            <showHeader>1</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+
+            <content language="de">
+                <title>Beworbene Umfrage</title>
+            </content>
+            <content language="en">
+                <title>Featured Poll</title>
+            </content>
+        </box>
+    </import>
 </data>
