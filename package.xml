@@ -5,8 +5,8 @@
         <packagedescription>Displays selected polls in a box.</packagedescription>
         <packagename language="de">Beworbene Umfragen</packagename>
         <packagedescription language="de">Zeigt wählbare Umfragen in einer Box.</packagedescription>
-        <version>5.5.1</version>
-        <date>2022-09-18</date>
+        <version>5.5.2</version>
+        <date>2022-11-16</date>
         <license><![CDATA[LGPL <https://opensource.org/licenses/lgpl-license.php>]]></license>
     </packageinformation>
 
@@ -71,5 +71,9 @@
         <instruction type="page" />
         <instruction type="box" />
         <instruction type="acpMenu" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.5.1">
+        <void/>
     </instructions>
 </package>

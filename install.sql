@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS wcf1_poll_featured;
 CREATE TABLE wcf1_poll_featured (
-    featuredID            INT(10) AUTO_INCREMENT PRIMARY KEY,
+    featuredID            INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     actualPollID        INT(10),
     autoAdd                TINYINT(1) NOT NULL DEFAULT 1,
     frequency            SMALLINT(5) NOT NULL DEFAULT 30,
